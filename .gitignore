@@ -1,0 +1,43 @@
+```
+# Dependency directories
+vendor/
+node_modules/
+
+# Laravel-specific
+bootstrap/cache/
+storage/app/
+storage/framework/
+storage/logs/
+!storage/logs/.gitignore
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Compiled files
+*.php~
+*.js.map
+*.css.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+.phpunit.result.cache
+
+# Build artifacts
+dist/
+build/
+target/
+```
